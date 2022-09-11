@@ -1,0 +1,17 @@
+$primary: #5f9ea0;
+$secondary: #091010;
+$white: #eff5f6;
+$danger: #f2623b;
+@import './home';
+@import './modal';
+@import './sidebar';
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.App {
+  position: relative;
+}

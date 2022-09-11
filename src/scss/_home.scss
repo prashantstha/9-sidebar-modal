@@ -1,0 +1,41 @@
+
+.btn {
+    background: none;
+    border: none;
+    line-height: 1;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    &:focus {
+        outline: none;
+        border: none;
+    }
+}
+.sidebar-toggle {
+    font-size: 40px;
+    color: $primary;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    &:hover {
+        color: $secondary;
+    }
+}
+.btn-show-modal {
+    border-radius: 3px;
+    background: $secondary;
+    color: $white;
+    padding: 10px 15px;
+    font-size: 16px;
+    &:hover {
+        background: $primary;
+    }
+}
+
+.main {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
